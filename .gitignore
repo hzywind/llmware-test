@@ -1,5 +1,21 @@
-# Python build / packaging
-build/
-dist/
-__pycache__/
+# Ignore Python virtual environment
 venv/
+
+# Ignore SageMaker Checkpointing patterns
+*.sagemaker-uploading
+*.sagemaker-uploaded
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignore temporary files that are created by the operating system
+*.tmp
+*.temp
+*.swp
+.DS_Store
